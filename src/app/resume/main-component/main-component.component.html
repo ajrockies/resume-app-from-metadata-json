@@ -1,0 +1,20 @@
+<div id="hd">
+  <div class="yui-gc">
+      <div class="yui-u first">
+          <h1>{{mainInfo?.name.first}} {{mainInfo?.name.last}}</h1>
+          <h2>Software Engineer</h2>
+          <h4>{{mainInfo?.address.city}} - {{mainInfo?.address.gov}} - {{mainInfo?.address.country}}</h4>
+      </div>
+
+      <div class="yui-u">
+          <div class="contact-info">
+              <img class="img-circle" src="{{mainInfo?.name.image}}">
+              <h3><a href="mailto:{{mainInfo?.email}}">{{mainInfo?.email}}</a></h3>
+              <h3>{{mainInfo?.mobile}}</h3>
+          </div>
+          <!--// .contact-info -->
+      </div>
+  </div>
+  <!--// .yui-gc -->
+</div>
+<!--// hd -->

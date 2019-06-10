@@ -1,0 +1,15 @@
+<div class="yui-u first">
+    <h2>Extra Activities</h2>
+</div>
+<!--// .yui-u -->
+<div class="yui-u">
+    <div *ngFor="let activity of extraActivity" class="job">
+        <h2>{{activity.name}}</h2>
+        <br>
+        <div *ngFor="let detail of activity.details">
+            {{detail}}
+        </div>
+
+    </div>
+</div>
+<!--// .yui-u -->

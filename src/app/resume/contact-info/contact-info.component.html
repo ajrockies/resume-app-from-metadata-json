@@ -1,0 +1,11 @@
+<div class="yui-u first">
+    <h2>Contact Information</h2>
+</div>
+<div class="yui-u">
+
+    <div *ngFor="let info of contactInfo" class="talent">
+        <a [href]="sanitize(info.address)">
+            <h2>{{info.name}}</h2>
+        </a>
+    </div>
+</div>

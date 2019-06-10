@@ -1,0 +1,19 @@
+<div class="yui-u first">
+    <h2>Experience</h2>
+</div>
+<!--// .yui-u -->
+<div class="yui-u">
+    <div *ngFor="let exp of experience" class="job">
+        <a  [href]="sanitize(exp.companyLink)">
+            <h2>{{exp.companyName}}</h2>
+        </a>
+        
+        <h3>{{exp.title}}</h3>
+        <h4 *ngIf="exp.from">{{exp.from}} - {{exp.to}}</h4>
+        <br>
+        <div *ngFor="let detailTxt of exp.details">
+            {{detailTxt}}
+        </div>
+    </div>
+</div>
+<!--// .yui-u -->

@@ -1,0 +1,74 @@
+{
+"mainInfo":{
+"name":{
+"first":"Albin",
+"middle":"",
+"last":"Jacob",
+"image":"/assets/Albin profile pic.jpg"
+},
+"address":{
+"city":"Ernakulam",
+"gov":"kerala",
+"country":"India"
+},
+"mobile":"+918089367006",
+"email":"albinjacob.jacob@gmail.com"
+},
+"summary":"Software engineer with about 2 years of extensive and diverse experience in Microsoft Azure Cloud Computing, .Net technologies and JavaScript frameworks like angular.",
+"basicSkills":{
+"languages":{
+"proficient":["C#","CSS","JavaScript"],
+"familiar":["Objective C"],
+"webFrameworks":["Web Forms","ASP.Net MVC","Web APIs","NodeJS ","Angular"],
+"mobileFrameworks":["Android"]
+},
+"software":{
+"database":["MSSQL Server","MySql"],
+"platforms":["Windows","Mac"]
+}
+},
+"experince":[{
+"title":"Software Engineer",
+"companyName":"Orion India Systems Pvt Ltd",
+"companyLink":"https://www.orioninc.com/",
+"from":"july 2018",
+"to":"July 2019",
+"details":["Responsible of developing Web API’s to consume legacy business model and reuse existing code.","Responsible of creating Front-End portal for managing reports and administration tasks for mobile apps","Develop Cross mobile application using Xamarin Forms and I’m responsible for the design and consuming the business API’s.",
+"Develop Cross mobile application using Ionic 2 and I’m responsible for the creating the UI and the backend too, also I’m handling the publishing on both platforms IOS and Android.",
+"Preform Unit Tests for the created API and the Mobile Application "],
+"tools":[" ASP.Net Web Api","Angular","MSSQLServer","Azure","Bot framework"]
+},
+{
+"title":"Software Engineer Trainee",
+"companyName":"Orion India Systems Pvt Ltd",
+"companyLink":"https://www.orioninc.com/",
+"from":"july 2017",
+"to":"July 2018",
+"details":["Developed a modular web solution for Time Attendance, access control and Notifications System."],
+"tools":["ASP.Net Web forms", "Asp.Net API", "WCF","angularJS","Telerik Data Access and Telerik UI Controls"]
+}
+],
+"education":{
+"uniName":"Mar Baselios Institute of Technology and Science",
+"from":"2013",
+"to":"2017",
+"faculty":"Bachelor of Technology",
+"bachelor":"Computer Science and Engineering",
+"grade":"Very Good",
+"graduactionProject":"Excellent"
+},
+"extraActivities":[{
+"name":"volunteer at kerala microsoft users group Program",
+"details":["K-MUG is one of the most successful technical community in India, who focus on empowering people through technology since 2000. We have super-experience close to 2 decades. Microsoft recognised the efforts made in building the community by selecting K-MUG as the Best Developer User Group for Tier 2 cities as part of the Community Impact Awards for 2010."]
+}],
+"contactInfo":[
+{
+"name":"LinkedIn",
+"address":"https://www.linkedin.com/in/albinjacobaj"
+},
+{
+"name":"github",
+"address":"https://github.com/ajrockies"
+}
+]
+}
